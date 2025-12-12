@@ -191,6 +191,7 @@ VITE_APP_TITLE=My App (staging)
 ```
 
 As `vite build` runs a production build by default, you can also change this and run a development build by using a different mode and `.env` file configuration:
+**FIXME: This is confusing. Does env.testing affect whether it's a prodution build or a development build? Does specifying --mode=testing _not_ affect the build mode, so one has to specify both that _and_ NODE_ENV in .env.testing?**
 
 ```[.env.testing]
 NODE_ENV=development
@@ -220,6 +221,7 @@ The different values of `NODE_ENV` and mode also reflect on its corresponding `i
 | `--mode production`  | `"production"`         |
 | `--mode development` | `"development"`        |
 | `--mode staging`     | `"staging"`            |
+| `--mode foo`         | `???` Is this an option? |
 
 :::tip `NODE_ENV` in `.env` files
 
