@@ -130,5 +130,5 @@ vite preview [root]
 | `--configLoader <loader>` | Use `bundle` to bundle the config with Rolldown or `runner` (experimental) to process it on the fly (default: `bundle`) |
 | `-d, --debug [feat]`      | Show debug logs (`string \| boolean`)                                                                                   |
 | `-f, --filter <filter>`   | Filter debug logs (`string`)                                                                                            |
-| `-m, --mode <mode>`       | Set env mode (`string`)                                                                                                 |
+| `-m, --mode <mode>`       | Set env mode (`string`) - **FIXME: this doesn't seem to do anything?**                                                  |
 | `-h, --help`              | Display available CLI options                                                                                           |
